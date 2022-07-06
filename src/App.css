@@ -1,0 +1,35 @@
+.wrapper{
+  background: #C7D2DD;
+  min-height: 100vh;
+}
+
+.header{
+  background: #3F4E4F;
+  padding: 18px 0 34px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__logo{
+  width: 80px;
+  height: 28px;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.switch{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.switch__btn{
+  line-height: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
